@@ -1,0 +1,44 @@
+ API: GET /api​/v1​/Authors
+ Test Case1: Make sure the response is "200 OK".
+ Test Case2: Objects inside response contain, id, idBook, firstName, lastName.
+ Expected Result for Test Case1: 200 OK
+ Actual Result for Test Case1: 200 OK
+ Expected Result for Test Case2: response has this keys [id, idBook, firstName, lastName]
+ Actual Result for Test Case2: response has this keys [id, idBook, firstName, lastName]
+ Status: Pass
+ ------------------------------------------------------------------------------------------
+ API: POST /api/v1/Authors
+ Test Case1: Register a new valid Author successfully and response code "201 Created".
+ Test Case2: firstname & lastname should be mandatory.
+ Expected Result for Test Case1: 201 Created
+ Actual Result for Test Case1: 201 Created
+ Expected Result for Test Case2: pass for request [firstName,lastName]
+ Actual Result for Test Case2: accepted firstName,lastName and retrive it in response
+ Status: Pass
+ ------------------------------------------------------------------------------------------
+ API: GET /api/v1/Authors/authors/books/{idBook}
+ Test Case1: Searching with valid idBook should return relative data in response body.
+ Expected Result : when enter specific id such as 2 it retrive data with book id equals 2 and status code is 200.
+ Actual Result : retrive data with book id equals 2 and status code is 200.
+ Status: Pass
+ ------------------------------------------------------------------------------------------
+ API: PUT /api/v1/Authors/{id}
+ Test Case1: Author's data is updated successfully.
+ Expected Result : data will change and update and status code is 200.
+ Actual Result : data is updated and status code is 200.
+ Status: Pass
+ ------------------------------------------------------------------------------------------
+ API: GET /api/v1/Authors/{id}
+ Test Case1: it will be data returned and status code is 200".
+ Test Case2: The author's data is changed in GET request.
+ Expected Result for Test Case1: 200 ok and data is returned
+ Actual Result for Test Case1: 200 ok and data is returned
+ Expected Result for Test Case2: updated data from put request is applied
+ Actual Result for Test Case2: it returns the old data 
+ Status: fail
+ ---------------------------------------------------------------------------------------------
+ API: DELETE ​/api​/v1​/Authors​/{id}
+ Test Case1: Author's data is deleted successfully.
+ Expected Result : data will delete and status code is 200.
+ Actual Result : data is deleted and status code is 200.
+ Status: Pass
