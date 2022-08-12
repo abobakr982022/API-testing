@@ -41,4 +41,5 @@
  Test Case1: Author's data is deleted successfully.
  Expected Result : data will delete and status code is 200.
  Actual Result : data is deleted and status code is 200.
- Status: Pass
+ Status: pass
+ ----------------------------------------------------------------------------------------
