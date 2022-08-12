@@ -11,10 +11,10 @@
  Test Case1: Register a new valid Author successfully and response code "201 Created".
  Test Case2: firstname & lastname should be mandatory.
  Expected Result for Test Case1: 201 Created
- Actual Result for Test Case1: 201 Created
+ Actual Result for Test Case1: 200 OK
  Expected Result for Test Case2: pass for request [firstName,lastName]
  Actual Result for Test Case2: accepted firstName,lastName and retrive it in response
- Status: Pass
+ Status: fail
  ------------------------------------------------------------------------------------------
  API: GET /api/v1/Authors/authors/books/{idBook}
  Test Case1: Searching with valid idBook should return relative data in response body.
