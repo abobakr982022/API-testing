@@ -25,8 +25,8 @@
  API: PUT /api/v1/Authors/{id}
  Test Case1: Author's data is updated successfully.
  Expected Result : data will change and update and status code is 200.
- Actual Result : data is updated and status code is 200.
- Status: Pass
+ Actual Result : data isn't updated by the specific id
+ Status: fail
  ------------------------------------------------------------------------------------------
  API: GET /api/v1/Authors/{id}
  Test Case1: it will be data returned and status code is 200".
