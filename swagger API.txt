@@ -1,4 +1,4 @@
- API: GET /api​/v1​/Authors
+a API: GET /api​/v1​/Authors
  Test Case1: Make sure the response is "200 OK".
  Test Case2: Objects inside response contain, id, idBook, firstName, lastName.
  Expected Result for Test Case1: 200 OK
