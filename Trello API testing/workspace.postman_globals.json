@@ -1,0 +1,63 @@
+{
+	"id": "9d74c6bd-6346-4635-84a8-c32fa9803d57",
+	"values": [
+		{
+			"key": "key",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "name",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "URL",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "FirstBoardID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "LastBoardID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ListID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "FirstListID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "LastListID",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-08-19T16:03:38.425Z",
+	"_postman_exported_using": "Postman/9.29.2"
+}
