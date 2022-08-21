@@ -1,0 +1,16 @@
+"boards": [
+    {
+        "id": "630210bdea0c83001f429ec6",
+        "name": "api_testing",
+        "closed": false,
+        "idOrganization": "6030ddaf9c5056483ab7f6a1",
+        "pinned": false
+    },
+    {
+        "id": "6284e07cef7c726e611b484e",
+        "name": "healthcare",
+        "closed": false,
+        "idOrganization": "6030ddaf9c5056483ab7f6a1",
+        "pinned": false
+    }
+]
