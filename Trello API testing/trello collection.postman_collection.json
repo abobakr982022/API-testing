@@ -165,15 +165,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/:id/lists?key={{key}}&token={{token}}",
-					"protocol": "https",
+					"raw": "{{URL}}1/boards/:id/lists?key={{key}}&token={{token}}",
 					"host": [
-						"api",
-						"trello",
-						"com"
+						"{{URL}}1"
 					],
 					"path": [
-						"1",
 						"boards",
 						":id",
 						"lists"
@@ -342,15 +338,11 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.trello.com/1/lists/:id/closed?key={{key}}&token={{token}}",
-					"protocol": "https",
+					"raw": "{{URL}}1/lists/:id/closed?key={{key}}&token={{token}}",
 					"host": [
-						"api",
-						"trello",
-						"com"
+						"{{URL}}1"
 					],
 					"path": [
-						"1",
 						"lists",
 						":id",
 						"closed"
